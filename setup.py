@@ -27,6 +27,6 @@ setuptools.setup(
                         'ipykernel==6.22.0',
                         'pandas==1.5.2',
                         'setuptools',
-                        'JupyterReviewer==0.0.7',
+                        'AnnoMate==0.0.0',
                        ]
 )   

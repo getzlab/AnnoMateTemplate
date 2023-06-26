@@ -4,8 +4,8 @@ import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
 
 from PurityReviewers.AppComponents.utils import gen_cnp_figure
-from JupyterReviewer.ReviewDataApp import AppComponent
-from JupyterReviewer.DataTypes.GenericData import GenericData
+from AnnoMate.ReviewDataApp import AppComponent
+from AnnoMate.DataTypes.GenericData import GenericData
 
 def gen_custom_app_component():
     
