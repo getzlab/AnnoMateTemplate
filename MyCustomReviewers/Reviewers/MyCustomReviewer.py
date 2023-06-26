@@ -6,12 +6,12 @@ from rpy2.robjects import pandas2ri
 
 from MyCustomReviewers.AppComponents.ACustomAppComponent import gen_custom_app_component
 
-from JupyterReviewer.Data import DataAnnotation
-from JupyterReviewer.ReviewDataApp import ReviewDataApp
-from JupyterReviewer.DataTypes.GenericData import GenericData
-from JupyterReviewer.ReviewerTemplate import ReviewerTemplate
-from JupyterReviewer.AppComponents.DataTableComponents import gen_annotated_data_info_table_component
-from JupyterReviewer.AnnotationDisplayComponent import NumberAnnotationDisplay
+from AnnoMate.Data import DataAnnotation
+from AnnoMate.ReviewDataApp import ReviewDataApp
+from AnnoMate.DataTypes.GenericData import GenericData
+from AnnoMate.ReviewerTemplate import ReviewerTemplate
+from AnnoMate.AppComponents.DataTableComponents import gen_annotated_data_info_table_component
+from AnnoMate.AnnotationDisplayComponent import NumberAnnotationDisplay
 
 
 class MyCustomReviewer(ReviewerTemplate):
